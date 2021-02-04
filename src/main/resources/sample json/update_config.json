@@ -1,0 +1,17 @@
+[
+  {
+    "tenant_domain" : "carbon.super",
+    "property" : "SelfRegistration.Enable",
+    "value" : "true"
+  },,
+  {
+    "tenant_domain" : "carbon.super",
+    "property" : "account.multiattributelogin.handler.enable",
+    "value" : "false"
+  },
+  {
+    "tenant_domain" : "carbon.super",
+    "property" : "account.multiattributelogin.handler.allowedattributes",
+    "value" : "http://wso2.org/claims/username,http://wso2.org/claims/accountNumber,http://wso2.org/claims/emailaddress,http://wso2.org/claims/telephone"
+  }
+]
